@@ -1,0 +1,147 @@
+/**index.wxss**/
+.result{
+  width:100%;
+  background-color: #90EE90;/**最上面的*/
+}
+/**bim值**/
+.result .title{
+  padding: 0 40rpx;
+  font-size: 28rpx;
+  padding-top:20rpx;
+  color: black;
+  font-weight:600;
+}
+/**bim的数值**/
+.result .score{
+  padding: 0 40rpx;
+  line-height: 100rpx;
+  font-size: 60rpx;
+  color:black;
+}
+
+ .tip{
+   display: flex;
+ 
+ }
+
+ .first-tip{
+   margin-bottom: 4rpx;
+ }
+/**身体状况，相关疾病危险性**/
+ .tip view{
+   line-height: 80rpx;
+   color:BLACK;
+   font-size: 24rpx;
+   background-color: aquamarine;
+   flex: 1;
+   padding-left: 40rpx;
+ }
+/**身体状况，相关疾病危险性里面的字**/
+ .tip view text{
+   color:tomato;
+ }
+
+ .physical-condition{
+    margin: 0 4rpx 0 0;
+   
+ }
+
+.input-container {
+   padding: 0 40rpx;
+}
+/**身高体重，标准**/
+.item {
+  border-bottom: 1px solid lime;/**线条颜色**/
+  height:56rpx;
+  line-height: 56rpx;
+  font-size:32rpx;
+  padding: 20rpx 0rpx;
+  color: lime;/**身高体重cm kg线条颜色**/
+}
+
+.item .label{
+  width: 20%;
+  float: left;
+  vertical-align: middle;
+}
+
+.item input{
+  margin-left: 30%;
+  margin-right: 10%;
+  height:40rpx;/**身高方框高度**/
+  border: 1rpx solid lime;/**身高方框颜色**/
+  border-radius: 6rpx;
+  background-color: #f1f1f1;
+  text-align: right;
+  padding-right: 8rpx;
+  color:#90ee90;/**体重身高里面的字体颜色 **/
+}
+
+.item .unit{
+  float: right;
+}
+
+.item .type_select{
+  float: right;
+}
+
+.item .type_select text{
+  margin-left: 8rpx;
+}
+
+.no-border{
+  border-bottom: 0px;
+}
+
+.calcu_btn {
+  background-color: #90EE90;/**开始计算背景颜色**/
+  color:white; /**开始计算**/
+  font-weight: 400;
+}
+
+#result-container{
+  padding: 20rpx 0;
+}
+
+.compatable{
+  padding: 40rpx 40rpx 0 40rpx;
+  font-size: 28rpx;
+  color:black;/**标准对照表颜色**/
+}
+
+.compatable .table-title{
+  line-height: 50rpx;
+  height: 50rpx;
+}
+
+.table{
+  border: 1rpx solid #90EE90;
+}
+
+.table .row{
+  display: flex;
+  border-bottom: 1rpx solid #90EE90;/**方框横着的颜色**/
+  line-height: 60rpx;
+  height: 60rpx;
+}
+
+.table .row .col{
+  flex: 1;
+  text-align: center;
+  border-right: 1rpx solid  lime;/**方框竖着的颜色**/
+}
+
+.table .thead{
+  background-color:#90ee90;
+  color: chocolate;
+}
+
+.table .row .col:last-child{
+  border-right: 0rpx;
+}
+
+.table .row:last-child{
+   border-bottom: 0rpx;
+}
+
+

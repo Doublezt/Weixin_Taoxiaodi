@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/detail/detail",
+    "pages/zd/zd"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#32CD32",
+    "navigationBarTitleText": "小焘计算器",
+    "navigationBarTextStyle":"black "
+  },
+  "tabBar":
+   {
+    "color": "#000000",
+    "selectedColor": "lime",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "计算器",
+        "iconPath": "img/3.png",
+        "selectedIconPath": "img/4.png"
+       
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "备忘录",
+       "iconPath": "assets/todos.png",
+      "selectedIconPath": "assets/todos-active.png"
+      },
+      {
+        "pagePath": "pages/zd/zd",
+        "text": "字典",
+        "iconPath": "assets/todos.png",
+        "selectedIconPath": "assets/todos-active.png"
+      },
+      
+      
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "TO YOU",
+      "iconPath": "img/1.png",
+      "selectedIconPath": "img/2.png"
+      }
+    ]
+  }
+}

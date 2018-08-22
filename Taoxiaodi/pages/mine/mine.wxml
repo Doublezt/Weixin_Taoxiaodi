@@ -1,0 +1,42 @@
+<view class="container">
+  <!--   <image src="  " ></image>-->
+  <!--
+   .container image{
+    margin-top: 40px;
+    width: 180px;
+    height: 50px;
+}
+ -->
+  <!-- <text class="about">I am an Android developer,but also interested in other technology. </text> -->
+
+  <view class="website">
+    <view class="item">
+      <text>大家好啊：</text>
+
+    </view>
+    <view class="item">
+
+      <text class="github">   </text>
+    </view>
+    <view class="item">
+
+      <text class="github">一、每日宜早卧早起，保证一定的睡眠时间。
+二、加强锻炼。每天起床后坚持到空气清新的地方进行早锻炼，持之以恒可精神饱满、神清气爽。
+三、之早餐要摄取较多的热量 养成每天早餐摄取大部分热量食物的习惯，以便供给人体充足的热量。
+四、平衡饮食。多吃一些富含优质蛋白的食物，以满足春季因人体代谢旺盛而蛋白质需求的增加。
+五、多吃新鲜的蔬菜水果，既可中和体内酸性产物，又可补充维生素。例如葡萄干，桔子，香蕉，苹果中都富含这种矿物质。
+六、少玩手机电脑等电子产品。
+</text>
+    </view>
+    <view class="item">
+
+      <text class="githu">健康的生活源于良好的习惯！</text>
+    </view>
+    <view class="item">
+
+      <text class="g">欢迎关注我的观众号"Maxoo"！ ^_^</text>
+
+    </view>
+  </view>
+</view>
+<audio src="{{audioSrc}}" poster="{{audioPoster}}" name="{{audioName}}" author="{{audioAuthor}}" controls></audio>
